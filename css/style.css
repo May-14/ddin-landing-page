@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 10px 150px;
+    background-color: #1f2937;
 }
 
 ul {
@@ -15,24 +16,51 @@ ul {
     margin: 0;
     margin-left: auto;
     padding: 0;
+    gap: 18px;
 }
 
 .header {
     display: flex;
 }
 
+.header span {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
 h1 {
     padding: none;
     margin: none;
     display: inline;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
 }
 
 .first-content {
     justify-content: space-between;
     display: flex;
     align-items: center;
+    padding: 100px 0;
+}
+
+.first-content, ul, button {
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .first-left-content {
-    width: 350px;
+    width: 400px;
+}
+
+.first-content span{
+    padding: 100px;
+    background-color: gray;
+}
+
+button {
+    background-color: #3882f6;
+    border: none;
+    padding: 7px 25px;
+    border-radius: 5px;
 }
