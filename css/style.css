@@ -1,8 +1,31 @@
 body {
     display: flex;
+
 }
 
 .first {
     display: flex;
     flex-direction: column;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    margin-left: auto;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+}
+
+h1 {
+    padding: none;
+    margin: none;
+    display: inline;
+}
+
+.first-content {
+    display: flex;
 }
