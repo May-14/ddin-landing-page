@@ -64,7 +64,6 @@ h1 {
 }
 
 button {
-    background-color: #3882f6;
     border: none;
     padding: 7px 25px;
     border-radius: 5px;
@@ -76,15 +75,28 @@ button {
 
 .second-content {
     display: flex;
-    gap: 30px;
+    gap: 50px;
 }
 
 .ilustration-combo {
-    width: 150px;
+    width: 145px;
+    text-align: center;
+    color: gray;
 }
 
 h2 {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+}
+
+.illustration {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+}
+
+button {
+    background-color: #3882f6;
 }
