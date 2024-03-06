@@ -150,9 +150,11 @@ button, .fourth-content {
 
 .fourth-content {
    width: 900px;
+   border-radius: 10px;
    display: flex;
-   padding: 80px 20px;
-   justify-content: space-between;
+   padding: 50px 20px;
+   justify-content: center;
+   gap: 150px;
 }
 
 .fourth-right-content {
@@ -160,5 +162,21 @@ button, .fourth-content {
 }
 
 .fourth button {
-    border: 3px white solid;
+    border: 2px white solid;
+    border-radius: 10px;
+    padding: 5px 30px;
+    height: fit-content;
+}
+
+.fourth-content span {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.fourth p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: sans-serif;
 }
