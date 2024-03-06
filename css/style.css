@@ -71,6 +71,11 @@ button {
 
 .second {
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px;
+    padding-bottom: 150px;
 }
 
 .second-content {
@@ -91,12 +96,17 @@ h2 {
 }
 
 .illustration {
-    height: 150px;
-    width: 150px;
+    height: 140px;
+    width: 140px;
     border: 5px solid #3882f6;
     border-radius: 15px;
 }
 
 button {
     background-color: #3882f6;
+}
+
+.ilustration-combo p {
+   font-size: 18px;
+   margin-top: 8px;
 }
