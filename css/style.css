@@ -69,3 +69,22 @@ button {
     padding: 7px 25px;
     border-radius: 5px;
 }
+
+.second {
+    align-items: center;
+}
+
+.second-content {
+    display: flex;
+    gap: 30px;
+}
+
+.ilustration-combo {
+    width: 150px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
