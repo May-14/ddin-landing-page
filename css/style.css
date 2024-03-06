@@ -149,10 +149,16 @@ button, .fourth-content {
 }
 
 .fourth-content {
+   width: 900px;
    display: flex;
-   padding: 100px;
+   padding: 80px 20px;
+   justify-content: space-between;
 }
 
 .fourth-right-content {
     color: #f9faf8;
+}
+
+.fourth button {
+    border: 3px white solid;
 }
