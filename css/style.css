@@ -102,7 +102,7 @@ h2 {
     border-radius: 15px;
 }
 
-button {
+button, .fourth-content {
     background-color: #3882f6;
 }
 
@@ -145,8 +145,14 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 80px;
 }
 
 .fourth-content {
-    
+   display: flex;
+   padding: 100px;
+}
+
+.fourth-right-content {
+    color: #f9faf8;
 }
